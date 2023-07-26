@@ -83,6 +83,56 @@ img {
 }
 
 #burger:hover {
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 212);
     color: black;
 }
+
+#burger::after {
+    background-color: rgb(2, 39, 9);
+    color: #ffffff;
+}
+
+h3 {
+    text-align: center;
+    color: #550513;
+    cursor: pointer;
+    
+}
+div {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    
+}
+
+input {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px  ;
+    margin-right: 20px;
+    outline: none;
+    
+
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(32, 61, 4);
+    color: #ffffff;
+   
+    
+}
+
+button:hover {
+    opacity: 0.8;
+}
+   
+   
